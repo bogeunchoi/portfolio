@@ -11,7 +11,7 @@ export default function Hero({ id }: { id?: string }) {
 
       <div className="container flex flex-col items-center pt-24 sm:pt-40 pb-16 sm:pb-24">
         <div className="relative h-40 w-40 overflow-hidden rounded-full border-4 border-white shadow-lg dark:border-slate-800">
-          <Image src="/Images/profilo.jpeg" alt="최보근" fill className="object-cover" />
+          <Image src="/images/profilo.jpeg" alt="최보근" fill className="object-cover" />
         </div>
 
         <h1 className="mt-6 text-center text-3xl font-bold tracking-tight sm:text-5xl">

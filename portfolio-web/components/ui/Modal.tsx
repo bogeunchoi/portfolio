@@ -5,7 +5,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { FileText, Cpu, Lightbulb, Rocket, CheckCircle } from "lucide-react";
 import type { Project, ProjectDetails } from '@/types/project';
-// (선택) 기존에 다른 파일이 Modal에서 타입을 가져왔다면 유지 위해 재-export
 export type { Project, ProjectDetails } from '@/types/project';
 
 export default function ProjectModal({
