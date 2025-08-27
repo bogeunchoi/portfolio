@@ -4,7 +4,6 @@ import { useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { FileText, Cpu, Lightbulb, Rocket, CheckCircle } from "lucide-react";
-import type { Project } from '@/types/project';
 
 type ProjectDetails = {
   overview?: {
@@ -30,7 +29,7 @@ export type Project = {
   title: string;
   summary?: string;
   techStack?: string[];
-  coverImage?: string;
+  coverImage?: string | null;
   githubUrl?: string;
   demoUrl?: string;
   featured?: boolean;
