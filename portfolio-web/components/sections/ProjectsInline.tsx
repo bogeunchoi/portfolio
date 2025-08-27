@@ -2,9 +2,9 @@
 
 import { useState } from 'react';
 import Image from 'next/image';
-import ProjectModal from '../ui/Modal'; // 앞서 드린 modal.tsx
 import { projects } from '@/data/projects';
 import type { Project } from '@/types/project';
+import ProjectModal from '@/components/ui/Modal';
 
 export default function ProjectsInline() {
   const [open, setOpen] = useState(false);

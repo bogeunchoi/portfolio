@@ -4,38 +4,9 @@ import { useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { FileText, Cpu, Lightbulb, Rocket, CheckCircle } from "lucide-react";
-
-type ProjectDetails = {
-  overview?: {
-    name?: string;
-    period?: string;
-    role?: string;
-    goal?: string;
-  };
-  tech?: {
-    frontend?: string[];
-    uiux?: string[];
-    infra?: string[];
-    tools?: string[];
-  };
-  features?: {
-    sections?: Array<{ title: string; items: string[] }>;
-  };
-  outcomes?: string[];
-};
-
-export type Project = {
-  slug: string;
-  title: string;
-  summary?: string;
-  techStack?: string[];
-  coverImage?: string | null;
-  githubUrl?: string;
-  demoUrl?: string;
-  featured?: boolean;
-  body?: string;
-  details?: ProjectDetails;
-};
+import type { Project, ProjectDetails } from '@/types/project';
+// (선택) 기존에 다른 파일이 Modal에서 타입을 가져왔다면 유지 위해 재-export
+export type { Project, ProjectDetails } from '@/types/project';
 
 export default function ProjectModal({
   open,
