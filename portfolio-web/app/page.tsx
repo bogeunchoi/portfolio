@@ -238,7 +238,7 @@ export default function OnePagePortfolio() {
 
       {/* PROJECTS */}
       <Section id="projects" title="Projects" subtitle="최근 작업과 포트폴리오">
-        <ProjectsInline projects={projects} />
+        <ProjectsInline />   {/* ✅ projects 안 넘김 */}
       </Section>
     </>
   );

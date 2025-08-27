@@ -1,4 +1,3 @@
-// ProjectsInline.tsx (예시)
 'use client';
 
 import { useState } from 'react';
