@@ -5,7 +5,7 @@ export const projects: Project[] = [
     slug: "portfolio",
     title: "개인 포트폴리오 웹",
     summary: "Next.js App Router 기반 반응형 포트폴리오",
-    techStack: ["Next.js", "TailwindCSS", "TypeScript", "Framer Motion", "Vercel"],
+    techStack: [],
     coverImage: "/images/project_4.png",
     githubUrl: "",
     demoUrl: "",
@@ -75,7 +75,7 @@ export const projects: Project[] = [
     slug: "poms",
     title: "POMS 항만시설물 관리 플랫폼",
     summary: "Tibero→Maria DB 마이그레이션, 권한 체계 설계, 퍼블리싱 개편, G-Cloud 이전 및 성능 개선",
-    techStack: ["Java", "Spring", "JSP", "HTML/CSS/JS", "Tibero", "MariaDB", "SVN", "Eclipse"],
+    techStack: [],
     coverImage: "/images/project_1.png",
     githubUrl: "",
     demoUrl: "https://poms.portcals.go.kr/",
@@ -149,8 +149,6 @@ export const projects: Project[] = [
     title: "해양수산부 빅데이터 플랫폼",
     summary: "공간 데이터 파이프라인·GIS 카테고리/검색 기능·품질검증 기반의 빅데이터 플랫폼 구축",
     techStack: [
-      "Java(Spring)", "JSP", "HTML/CSS/JS", "OpenLayers",
-      "PostgreSQL(PostGIS)", "GeoServer", "JBoss", "GitLab"
     ],
     coverImage: "/images/project_2.png",
     githubUrl: "",
@@ -231,9 +229,6 @@ export const projects: Project[] = [
     title: "MSP 서비스",
     summary: "대용량 GIS 데이터 QA/QC·좌표변환·성능 최적화 및 업무 프로세스 개선",
     techStack: [
-      "Java(Spring)", "JSP/JS", "HTML/CSS",
-      "PostgreSQL(PostGIS)", "GeoServer", "OpenLayers",
-      "Python", "GDAL", "QGIS", "JBoss", "GitLab"
     ],
     coverImage: "/images/project_3.png",
     githubUrl: "",
@@ -315,8 +310,6 @@ export const projects: Project[] = [
     title: "여행지 자동 추천 · AI 스크립트 · TTS 영상 자동화",
     summary: "여행지 추천 → 스크립트 생성 → 음성합성 → 컷 편집까지 완전 자동 파이프라인",
     techStack: [
-      "Python", "FFmpeg", "Selenium", "Google TTS", "Gemini API",
-      "REST API(여행/숙소)", "JSON"
     ],
     coverImage: "/images/project_5.png", 
     githubUrl: "",  

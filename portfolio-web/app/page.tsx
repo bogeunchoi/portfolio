@@ -134,7 +134,7 @@ export default function OnePagePortfolio() {
               <div>
                 <p className="font-medium">Backend</p>
                 <div className="mt-2 flex flex-wrap gap-2">
-                  <span className="badge">Java (Spring Framework)</span>
+                  <span className="badge">Spring</span>
                   <span className="badge">JSP</span>
                   <span className="badge">Spring Batch</span>
                   <span className="badge">Node.js</span>
@@ -158,11 +158,10 @@ export default function OnePagePortfolio() {
                 <p className="font-medium">DevOps / Infra</p>
                 <div className="mt-2 flex flex-wrap gap-2">
                   <span className="badge">Docker</span>
-                  <span className="badge">GitLab</span>
-                  <span className="badge">SVN</span>
                   <span className="badge">JBoss</span>
                   <span className="badge">Tomcat</span>
                   <span className="badge">Linux 기본</span>
+                  <span className="badge">Vercel</span>
                 </div>
               </div>
 

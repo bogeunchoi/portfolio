@@ -33,14 +33,6 @@ export default function ProjectsInline() {
             <p className="mt-1 line-clamp-2 text-sm text-slate-600 dark:text-slate-300">
               {p.summary}
             </p>
-            {/* 배지 */}
-            {p.techStack?.length ? (
-              <div className="mt-2 flex flex-wrap gap-1.5">
-                {p.techStack.map((t) => (
-                  <span key={t} className="badge">{t}</span>
-                ))}
-              </div>
-            ) : null}
           </button>
         ))}
       </div>
