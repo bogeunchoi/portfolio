@@ -65,7 +65,7 @@ export default function OnePagePortfolio() {
             <div>
               <h3 className="font-semibold">경력</h3>
               <ul className="text-sm space-y-1">
-                <li>• (주)에이아이이 - 전기 엔지니어 (2019.12 ~ 2022.03)</li>
+                <li>• (주)에이아이이 - 전기 엔지니어 (2019.12 ~ 2022.07)</li>
               </ul>
               <ul className="text-sm space-y-1">
                 <li>• (주)선도소프트 - 2년차 백엔드, 서버 개발자 (2023.05 ~ 2025.05)</li>

@@ -10,8 +10,8 @@ export default function Hero({ id }: { id?: string }) {
       </div>
 
       <div className="container flex flex-col items-center pt-24 sm:pt-40 pb-16 sm:pb-24">
-        <div className="relative h-40 w-40 overflow-hidden rounded-full border-4 border-white shadow-lg dark:border-slate-800">
-          <Image src="/images/profilo.jpeg" alt="최보근" fill className="object-cover" />
+        <div className="relative h-60 w-60 overflow-hidden rounded-full border-4 border-white shadow-lg dark:border-slate-800 bg-[rgb(190,192,196)]">
+          <Image src="/images/profilo.png" alt="최보근" fill className="object-scale-down scale-110"/>
         </div>
 
         <h1 className="mt-6 text-center text-3xl font-bold tracking-tight sm:text-5xl">
@@ -24,7 +24,7 @@ export default function Hero({ id }: { id?: string }) {
           GIS·빅데이터 플랫폼과 DB 마이그레이션 경험,<br className="hidden sm:block" />
           Spring/Java · Python · PostgreSQL 기반 백엔드 개발 역량,<br className="hidden sm:block" />
           그리고 Next.js · AI 자동화 프로젝트까지<br className="hidden sm:block" />
-          문제를 제품으로 바꾸는 개발자입니다.
+          문제를 제품으로 바꾸는 3년차 개발자입니다.
         </p>
 
         <div className="mt-6 flex gap-3">
