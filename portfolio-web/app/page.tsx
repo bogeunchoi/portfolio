@@ -65,6 +65,9 @@ export default function OnePagePortfolio() {
             <div>
               <h3 className="font-semibold">경력</h3>
               <ul className="text-sm space-y-1">
+                <li>• (주)에이아이이 - 전기 엔지니어 (2019.12 ~ 2022.03)</li>
+              </ul>
+              <ul className="text-sm space-y-1">
                 <li>• (주)선도소프트 - 2년차 백엔드, 서버 개발자 (2023.05 ~ 2025.05)</li>
               </ul>
             </div>
@@ -114,121 +117,106 @@ export default function OnePagePortfolio() {
           <div className="card md:col-span-2">
             <h3 className="font-semibold mb-3">Skills</h3>
 
-            <div className="grid gap-4 sm:grid-cols-2">
-              {/* Frontend */}
-              <div>
-                <p className="font-medium">Frontend</p>
-                <div className="mt-2 flex flex-wrap gap-2">
-                  <span className="badge">React</span>
-                  <span className="badge">Next.js</span>
-                  <span className="badge">TypeScript</span>
-                  <span className="badge">TailwindCSS</span>
-                  <span className="badge">OpenLayers</span>
-                  <span className="badge">HTML5</span>
-                  <span className="badge">CSS3</span>
-                  <span className="badge">JavaScript (ES6+)</span>
-                </div>
-              </div>
-
-              {/* Backend */}
-              <div>
-                <p className="font-medium">Backend</p>
-                <div className="mt-2 flex flex-wrap gap-2">
-                  <span className="badge">Spring</span>
-                  <span className="badge">JSP</span>
-                  <span className="badge">Spring Batch</span>
-                  <span className="badge">Node.js</span>
-                </div>
-              </div>
-
-              {/* Database */}
-              <div>
-                <p className="font-medium">Database</p>
-                <div className="mt-2 flex flex-wrap gap-2">
-                  <span className="badge">PostgreSQL</span>
-                  <span className="badge">PostGIS</span>
-                  <span className="badge">Oracle</span>
-                  <span className="badge">MariaDB</span>
-                  <span className="badge">MySQL</span>
-                </div>
-              </div>
-
-              {/* DevOps / Infra */}
-              <div>
-                <p className="font-medium">DevOps / Infra</p>
-                <div className="mt-2 flex flex-wrap gap-2">
-                  <span className="badge">Docker</span>
-                  <span className="badge">JBoss</span>
-                  <span className="badge">Tomcat</span>
-                  <span className="badge">Linux 기본</span>
-                  <span className="badge">Vercel</span>
-                </div>
-              </div>
-
-              {/* Testing / Quality */}
-              <div>
-                <p className="font-medium">Testing / Quality</p>
-                <div className="mt-2 flex flex-wrap gap-2">
-                  <span className="badge">JMeter</span>
-                  <span className="badge">OWASP ZAP</span>
-                  <span className="badge">웹표준(W3C)</span>
-                  <span className="badge">웹접근성(OpenWAX)</span>
-                </div>
-              </div>
-
-              {/* Data / GIS */}
-              <div>
-                <p className="font-medium">Data / GIS</p>
-                <div className="mt-2 flex flex-wrap gap-2">
-                  <span className="badge">GeoServer</span>
-                  <span className="badge">OpenLayers</span>
-                  <span className="badge">TIF 처리</span>
-                  <span className="badge">공간데이터 QA/QC</span>
-                  <span className="badge">ETL (NiFi)</span>
-                </div>
-              </div>
-
-              {/* Collaboration / Tools */}
-              <div>
-                <p className="font-medium">Collaboration / Tools</p>
-                <div className="mt-2 flex flex-wrap gap-2">
-                  <span className="badge">Git</span>
-                  <span className="badge">GitLab</span>
-                  <span className="badge">SVN</span>
-                  <span className="badge">Eclipse</span>
-                  <span className="badge">IntelliJ IDEA</span>
-                  <span className="badge">VSCode</span>
-                  <span className="badge">Postman</span>
-                </div>
-              </div>
-
-              {/* 🔥 Automation / AI / Media (추가) */}
-              <div>
-                <p className="font-medium">Automation / AI / Media</p>
-                <div className="mt-2 flex flex-wrap gap-2">
-                  <span className="badge">Python</span>
-                  <span className="badge">FFmpeg</span>
-                  <span className="badge">Selenium</span>
-                  <span className="badge">Google TTS</span>
-                  <span className="badge">Gemini API</span>
-                  <span className="badge">JSON</span>
-                  {/* 필요하면 스케줄링도 추가 */}
-                  {/* <span className="badge">Cron</span> */}
-                </div>
-              </div>
-
-              {/* Languages */}
-              <div>
-                <p className="font-medium">Languages</p>
-                <div className="mt-2 flex flex-wrap gap-2">
-                  <span className="badge">Java</span>
-                  <span className="badge">JavaScript</span>
-                  <span className="badge">TypeScript</span>
-                  <span className="badge">SQL</span>
-                  <span className="badge">Python</span>
-                </div>
+           <div className="grid gap-4 sm:grid-cols-2">
+            {/* Frontend */}
+            <div>
+              <p className="font-medium">Frontend</p>
+              <div className="mt-2 flex flex-wrap gap-2">
+                <span className="badge">React</span>
+                <span className="badge">Next.js</span>
+                <span className="badge">TypeScript</span>
+                <span className="badge">TailwindCSS</span>
+                <span className="badge">HTML5</span>
+                <span className="badge">CSS3</span>
+                <span className="badge">JavaScript (ES6+)</span>
+                <span className="badge">AJAX</span>
+                <span className="badge">jQuery</span>
               </div>
             </div>
+
+            {/* Backend */}
+            <div>
+              <p className="font-medium">Backend</p>
+              <div className="mt-2 flex flex-wrap gap-2">
+                <span className="badge">Java</span>
+                <span className="badge">Spring</span>
+                <span className="badge">JSP</span>
+                <span className="badge">Node.js</span>
+                <span className="badge">MyBatis</span>
+                <span className="badge">iBATIS</span>
+              </div>
+            </div>
+
+            {/* Database & Data */}
+            <div>
+              <p className="font-medium">Database & Data</p>
+              <div className="mt-2 flex flex-wrap gap-2">
+                <span className="badge">PostgreSQL</span>
+                <span className="badge">PostGIS</span>
+                <span className="badge">Oracle</span>
+                <span className="badge">MariaDB</span>
+                <span className="badge">MySQL</span>
+              </div>
+            </div>
+
+            {/* DevOps / Infra & QA */}
+            <div>
+              <p className="font-medium">DevOps / Infra & QA</p>
+              <div className="mt-2 flex flex-wrap gap-2">
+                <span className="badge">Docker</span>
+                <span className="badge">JBoss</span>
+                <span className="badge">Tomcat</span>
+                <span className="badge">Linux 기본</span>
+                <span className="badge">Vercel</span>
+                <span className="badge">JMeter</span>
+                <span className="badge">OWASP ZAP</span>
+                <span className="badge">웹표준(W3C)</span>
+                <span className="badge">웹접근성(OpenWAX)</span>
+              </div>
+            </div>
+
+            {/* GIS / ETL */}
+            <div>
+              <p className="font-medium">GIS / ETL</p>
+              <div className="mt-2 flex flex-wrap gap-2">
+                <span className="badge">GeoServer</span>
+                <span className="badge">OpenLayers</span>
+                <span className="badge">TIF 처리</span>
+                <span className="badge">공간데이터 QA/QC</span>
+              </div>
+            </div>
+
+            {/* Automation / AI / Media */}
+            <div>
+              <p className="font-medium">Automation / AI / Media</p>
+              <div className="mt-2 flex flex-wrap gap-2">
+                <span className="badge">Python</span>
+                <span className="badge">FFmpeg</span>
+                <span className="badge">Selenium</span>
+                <span className="badge">Google TTS</span>
+                <span className="badge">Gemini API</span>
+                <span className="badge">JSON</span>
+                {/* 필요시 스케줄링 */}
+                {/* <span className="badge">Cron</span> */}
+              </div>
+            </div>
+
+            {/* Tools & Analytics */}
+            <div>
+              <p className="font-medium">Tools & Analytics</p>
+              <div className="mt-2 flex flex-wrap gap-2">
+                <span className="badge">Git</span>
+                <span className="badge">GitLab</span>
+                <span className="badge">SVN</span>
+                <span className="badge">Eclipse</span>
+                <span className="badge">IntelliJ IDEA</span>
+                <span className="badge">VSCode</span>
+                <span className="badge">Postman</span>
+                <span className="badge">UTM</span>
+              </div>
+            </div>
+          </div>
+
           </div>
 
         </div>
